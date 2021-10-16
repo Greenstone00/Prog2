@@ -24,10 +24,10 @@ public class Cat : MonoBehaviour
             _timeSittingAround += Time.deltaTime;
         }
 
-        if (transform.position.y > 20 || 
-            transform.position.y < -20 ||
-            transform.position.x > 20 ||
-            transform.position.x < -20 ||
+        if (transform.position.y > 35 || 
+            transform.position.y < -35 ||
+            transform.position.x > 35 ||
+            transform.position.x < -45 ||
             _timeSittingAround > 3)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
