@@ -7,6 +7,7 @@
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\UnityEngine.UI.dll"
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Unity.Mathematics.dll"
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Unity.2D.IK.Runtime.dll"
+-a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll"
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Unity.2D.Animation.Runtime.dll"
 -a="C:\Users\Admin\Desktop\Game_Dev\Mad Cats - Aplha\Library\PlayerScriptAssemblies\Unity.2D.Common.Runtime.dll"
