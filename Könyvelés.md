@@ -18,3 +18,7 @@
 * Made a particle system that pops up upon enemy death
 * Some basic debbugging with some numbers and date that did not match the previous settings
     * (right now there is a bug, where if a mosue gets hit, but it's not a direct hit, it starts spinning for no reason at all)
+## week 7
+* Mad a script that takes us to next sceenes when all enemies are elliminated.
+* Made the Lvl Controller with the script, so now we have multiple (4, as right now) levels in the game.
+* Not much more, had some test this week and they took all my time and energy.
