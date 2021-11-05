@@ -22,3 +22,13 @@
 * Mad a script that takes us to next sceenes when all enemies are elliminated.
 * Made the Lvl Controller with the script, so now we have multiple (4, as right now) levels in the game.
 * Not much more, had some test this week and they took all my time and energy.
+## week 8
+* Made a fully fincional menu for the game.
+* Made a volume controller so we can change the music's volume.
+* Made some patching up for the level controller so it works with the menu.
+* Added a pauseable menu when Esc is hit in game. 
+* Some bugfixing with the new pause menu (like when we leave a game level, and get back to the main menu, and start to play again, the game was still paused).
+* Fixed the mouses animations (they weren't blinking, but they were intended to).
+* Added a hint text for the first level that dissapears upon clicking in the game.
+* Added a ending scene.
+* Made an option if R is hit on an ongoing level the level also resets if the player don't want to wait for the auto reset.
