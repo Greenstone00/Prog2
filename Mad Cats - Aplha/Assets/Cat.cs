@@ -24,11 +24,12 @@ public class Cat : MonoBehaviour
             _timeSittingAround += Time.deltaTime;
         }
 
-        if (transform.position.y > 35 || 
+        if (transform.position.y > 35 ||
             transform.position.y < -35 ||
             transform.position.x > 35 ||
             transform.position.x < -45 ||
-            _timeSittingAround > 3)
+            _timeSittingAround > 3 ||
+                Input.GetKeyDown(KeyCode.R))
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
