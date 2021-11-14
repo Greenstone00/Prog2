@@ -34,3 +34,8 @@
 * Made an option if R is hit on an ongoing level the level also resets if the player don't want to wait for the auto reset.
 * Fix a bug where the levels weren't loading properly after beating the game and replaying it.
 * Fixed an audio error where the Main Menu track started to play the music on max volume.
+## week 10
+* Made the hint into a separate button in the main menu.
+* Made some changes how to levels load.
+* Made some transitions between levels, so it's not frame to frame loads the next.
+* * (ToDo: - Limit the range the cat can be draged on the screen.)
