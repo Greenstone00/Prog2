@@ -56,6 +56,8 @@ public class Cat : MonoBehaviour
     private void OnMouseDrag()
     {
         Vector3 newposition = Camera.main.ScreenToWorldPoint(Input.mousePosition);  // monitor független lesz(Camera.main)
-        transform.position = new Vector3(newposition.x, newposition.y); //mozgatás
+        transform.position = new Vector3(Mathf.Clamp(newposition.x, _initialPosition.x -10f, _initialPosition.x +10f),
+            Mathf.Clamp(newposition.y, _initialPosition.y -5f, _initialPosition.y +10f)); //mozgatás + az initial possition-tól,
+                                                                                           //ami a macska kezdõ állapota 10x10 box-on belül tud mozogni
     }
 }

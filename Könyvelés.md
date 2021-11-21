@@ -38,4 +38,6 @@
 * Made the hint into a separate button in the main menu.
 * Made some changes how to levels load.
 * Made some transitions between levels, so it's not frame to frame loads the next.
-* * (ToDo: - Limit the range the cat can be draged on the screen.)
+## week 11
+* Made the player's Vector3 clamped, so it can't be dragged all the way over the sceen.
+* Fixed a bug where the cat would end up under the map with the clamped vec3.
