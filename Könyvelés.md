@@ -41,3 +41,6 @@
 ## week 11
 * Made the player's Vector3 clamped, so it can't be dragged all the way over the sceen.
 * Fixed a bug where the cat would end up under the map with the clamped vec3.
+* Made a change so the game won't load the next level in the next frame all the mice are dead but instead waits 2 seconds.
+* Made new sprites and anims for new enemies.
+* Added 4 more levels.

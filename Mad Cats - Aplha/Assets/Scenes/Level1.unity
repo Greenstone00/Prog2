@@ -310,6 +310,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 406060574}
     - target: {fileID: 4308405324896473212, guid: bf1fde6ba4680e74e9cf3946ce91d7ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc8021d1019c3fa4695389c81a0c6cff, type: 3}
+    - target: {fileID: 4308405324896473212, guid: bf1fde6ba4680e74e9cf3946ce91d7ab, type: 3}
       propertyPath: m_Color.b
       value: 0.40392157
       objectReference: {fileID: 0}
@@ -325,6 +329,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4308405325044465524, guid: bf1fde6ba4680e74e9cf3946ce91d7ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc8021d1019c3fa4695389c81a0c6cff, type: 3}
     - target: {fileID: 4308405325044465524, guid: bf1fde6ba4680e74e9cf3946ce91d7ab, type: 3}
       propertyPath: m_Color.b
       value: 0.4056604
@@ -824,7 +832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5632d3250047c9d45af6b965680d2e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  makeTransparent: {fileID: 0}
 --- !u!1 &805683329
 GameObject:
   m_ObjectHideFlags: 0
