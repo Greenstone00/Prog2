@@ -44,3 +44,4 @@
 * Made a change so the game won't load the next level in the next frame all the mice are dead but instead waits 2 seconds.
 * Made new sprites and anims for new enemies.
 * Added 4 more levels.
+* Fixed a bug where the level controller would have skipped though all levels, loading the end screen after the first one.

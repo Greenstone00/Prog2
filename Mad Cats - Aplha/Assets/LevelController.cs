@@ -30,12 +30,13 @@ public class LevelController : MonoBehaviour
 
         Debug.Log("You have killed all 'enemies'!");
 
-        _nextLevelIndex++;
-        string nextLevelName = "Level" + _nextLevelIndex;
+        
         transition.SetTrigger("Start");
         timeElapsed += Time.deltaTime;  // várakozatás hogy ne frame-rõl framere menjen a kövi pálya
         if (timeElapsed > delayBeforeLoading)  
         {
+            _nextLevelIndex++;
+            string nextLevelName = "Level" + _nextLevelIndex;
             SceneManager.LoadScene(nextLevelName);
         }
             //Ha végig vittük volna a játékot és újra akarnánk játszani, tudja tölteni a pájákat továbbra is
